@@ -31,6 +31,18 @@ header {
   height: 50px;
 }
 
+button {
+  background-color: green;
+  min-width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 2s;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
 footer {
   height: 300px;
 }
